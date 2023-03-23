@@ -1,0 +1,66 @@
+body{
+    font-family: 'Cairo', sans-serif;
+}
+
+.navbar{
+    background-color: #182c61;
+}
+
+#cabecalho .nav .nav-link.active{
+    background-color: #fff;
+    color: #182c61;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-cardapio .nav-link.active:hover{
+    color: #fff;
+}
+
+.navbar-toggler{
+    background-color: #3367f7;
+}
+
+.section-title{
+    font-family: 'Cairo', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#sobre-a-oficina,
+#servicos{
+    background-color: #6790ff;
+}
+
+.text-colored{
+    color: #182c61;
+}
+
+.nav-cardapio .nav-link.active,
+#fale-conosco button{
+    background-color: #182c61;
+    color: #fff;
+}
+
+.nav-cardapio .nav-link:hover{
+    color: #182c61;
+}
+
+.social-links li{
+    list-style: none;
+    display: inline;
+}
+.social-links li a{
+    text-decoration: none;
+}
+
+#fale-conosco button:hover{
+    border-color: black;
+}
+
+@media screen and (max-width: 767px) {
+    .carousel-item img{
+        height: 280px;
+    }
+}
